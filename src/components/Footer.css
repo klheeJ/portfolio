@@ -1,0 +1,18 @@
+.footer-main {
+    background-color: rgba(11, 11, 11, 0.836);
+    color: rgba(255, 255, 255, 0.581);
+    height: 7vh;
+    text-align: end;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer-main {
+        background-color: rgba(11, 11, 11, 0.836);
+        color: rgba(255, 255, 255, 0.581);
+        height: 7vh;
+        text-align: center;
+    }
+}

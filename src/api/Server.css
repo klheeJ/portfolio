@@ -1,0 +1,44 @@
+.server-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temps {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 350px;
+    text-align: center;
+    border-style: none none none solid;
+    border-color: rgb(239, 195, 131);
+}
+
+.temp-text {
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(41, 131, 227);
+} 
+
+.temp-temp {
+    font-size: large;
+    color: rgb(229, 50, 83);
+}
+
+.temp-bubble {
+    background-color: rgba(246, 251, 245, 0.632);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .temps {
+        display: flex;
+        padding-left: 1rem;
+        border-style: none;
+        padding-bottom: 2rem;
+    }
+}
