@@ -1,19 +1,58 @@
-import React from 'react'
-import './Projects.css'
+import styles from "../styles/main.scss"
+import { projects } from '../static/list'
+
 
 function Projects() {
   return (
     <div className='projects-main'>
-        <div className='projects-links'>
-            <div className='projects-square'><i id='square2'class="fa-solid fa-square-full"></i> <a id ='project-link' target='_blank?' href="https://github.com/klheeJ/park-website.git">Park</a></div>
-            <div className='projects-square'><i id='square3'class="fa-solid fa-square-full"></i> <a id ='project-link' target='_blank?' href="https://github.com/klheeJ/gym-webiste.git">Gym</a></div>
-            <div className='projects-square'><i id='square4'class="fa-solid fa-square-full"></i> <a id ='project-link' target='_blank?' href="https://github.com/klheeJ/Javascript_ChicagoArt_API.git">Chicago Art API</a></div>
-            <div className='projects-square'><i id='square1'class="fa-solid fa-square-full"></i> <a id ='project-link' target='_blank?' href="https://github.com/klheeJ/Theater-Company.git">Theater Company</a></div>
-            <div className='projects-square'><i id='square5'class="fa-solid fa-square-full"></i> <a id ='project-link' target='_blank?' href="https://github.com/klheeJ/Advice_React_Final.git">Advice</a></div>
+      <div className='first-child'>
+        <div>
+          <p className="project-title">Scholarship Auditions</p>
+          <a className="project-link" href="https://github.com/lcluischavez/SA" target="none">Github</a>
         </div>
-        <div className='projects-image'>
-            <img className='projects-picture' src="./programming.jpg" alt="programming" />
+        <a href="http://www.scholarshipaudition.com/home" target='none'><div className='hello'></div></a>
+        <li>
+          <ul>Worked with a graphic designer and another software engineer </ul>
+          <ul>Node.js/HTML/CSS</ul>
+          <ul>Informational site on the different services ScholarshipAuditions provides</ul>
+        </li>
+      </div>
+      <div className='first-child'>
+        <div>
+          <p className="project-title">Chicago Museum of Arts API</p>
+          <a className="project-link" href="https://github.com/klheeJ/Javascript_ChicagoArt_API" target="none">Github</a>
         </div>
+        <a href="https://main--spectacular-moxie-623ab5.netlify.app/" target='none'><div className='hello2'></div></a>
+        <li>
+          <ul>Project done with Coding Temple</ul>
+          <ul>JS/HTML/CSS</ul>
+          <ul>Utilizes an API to showcase selected art pieces from the Chicago Museum of Art</ul>
+        </li>
+      </div>
+      <div className='first-child'>
+        <div>
+          <p className="project-title">Foodbar (in progress)</p>
+          <a className="project-link" href="https://github.com/klheeJ/foodbar" target="none">Github</a>
+        </div>
+        <a href="https://main--curious-halva-0315d4.netlify.app/" target='none'><div className='hello3'></div></a>
+        <li>
+          <ul>Self project recreating a template website</ul>
+          <ul>React/Typescript/HTML/SCSS</ul>
+          <ul>Mock restaurant website displaying interactive elements</ul>
+        </li>
+      </div>
+      <div className='first-child'>
+        <div>
+          <p className="project-title">Otter Gym</p>
+          <a className="project-link" href="https://github.com/klheeJ/gym-webiste" target="none">Github</a>
+        </div>
+        <a href="https://vocal-beignet-099224.netlify.app/" target='none'><div className='hello4'></div></a>
+        <li>
+          <ul>Project done with Coding Temple</ul>
+          <ul>HTML/CSS</ul>
+          <ul>Multi-page static representation of a gym website</ul>
+        </li>
+      </div>
     </div>
   )
 }

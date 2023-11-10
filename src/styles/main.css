@@ -1,0 +1,14 @@
+.projects-main {
+  background-image: linear-gradient(rgb(253, 252, 249), white, rgb(248, 238, 232));
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.first-child {
+  width: 100%;
+  height: auto;
+}
+
+.hello {
+  width: 50rem;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,131 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background-image: linear-gradient(rgb(253, 252, 249), white, rgb(248, 238, 232));
+}
+
+.main-mobile {
+    display: none;
+}
+
+.main-intro {
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.main-head {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+}
+
+.main-end {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.main-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    height: 50%;
+}
+
+.main-carousel {
+    overflow: hidden;
+    width: 40%;
+    margin-bottom: 2rem;
+    border: 2px rgb(66, 58, 58) solid;
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+
+.carousel-item {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    background-color: #fff;
+}
+
+
+.left, .right {
+    background-color: white;
+    height: 12rem;
+    align-self: center;
+}
+
+
+  @media only screen and (max-width: 768px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        background-image: linear-gradient(rgb(253, 252, 249), white, rgb(248, 238, 232));
+    }
+
+    .main-head {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-family: 'Lora', serif;
+    }
+
+    .main-descript {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .main-end {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        padding: 1rem;
+    }
+
+    .main-bottom {
+        display: none;
+    }
+
+    .main-mobile {
+        display: flex;
+        .main-mobile-inner {
+            row-gap: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+  }

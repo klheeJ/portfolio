@@ -2,7 +2,7 @@
     height: 70vh;
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 100px;
     background-image: linear-gradient(rgb(253, 252, 249), white, rgb(248, 238, 232));
 }
 
@@ -10,6 +10,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 217, 217);
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .connect-text {
@@ -41,6 +46,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .connect {
+        overflow: hidden;
+        padding-top: 20px;
+    }
 
     .connect-text {
         text-align: center;

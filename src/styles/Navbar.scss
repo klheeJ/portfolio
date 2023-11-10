@@ -1,6 +1,7 @@
 .heading {
     padding-top: 1rem;
     padding-bottom: 2rem;
+    background-color: rgb(253, 252, 249);
 }
 
 .heading-row {
@@ -29,7 +30,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.5rem;
     width: 50rem;
+}
+
+#sub-about:hover, #sub-projects:hover {
+    color: rgb(48, 48, 199);
+    opacity: 0.8;
 }
 
 #sub-about, #sub-projects {
@@ -46,10 +53,6 @@
 .links {
     text-decoration: none;
     font-weight: 500;
-}
-
-.links:hover {
-    opacity: 70%;
 }
 
 .links:visited {

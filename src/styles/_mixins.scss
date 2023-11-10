@@ -1,0 +1,10 @@
+@mixin project-styles {
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    transition: background-image 350ms ease-in-out;
+    &:hover{
+        opacity: 0.8;
+        background-size: cover;
+    }
+}

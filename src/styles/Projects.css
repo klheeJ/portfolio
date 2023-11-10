@@ -1,0 +1,22 @@
+.projects-main {
+  background-image: linear-gradient(rgb(253, 252, 249), white, rgb(248, 238, 232));
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.first-child {
+  width: 100%;
+  height: auto;
+}
+
+.hello {
+  width: 45rem;
+  height: 30rem;
+  background-size: cover;
+  background-image: url("../../public/scholarshipauditions.png");
+  transition: background-image 500ms ease-in-out;
+}
+.hello:hover {
+  opacity: 0.8;
+  background-image: url("../../public/scholarshipauditions2.png");
+}/*# sourceMappingURL=Projects.css.map */
