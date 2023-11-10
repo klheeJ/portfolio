@@ -1,6 +1,3 @@
-import styles from "../styles/main.scss"
-import { projects } from '../static/list'
-
 
 function Projects() {
   return (
@@ -8,7 +5,7 @@ function Projects() {
       <div className='first-child'>
         <div>
           <p className="project-title">Scholarship Auditions</p>
-          <a className="project-link" href="https://github.com/lcluischavez/SA" target="none">Github</a>
+          <a className="project-link" href="https://github.com/lcluischavez/SA" rel="noopener noreferrer">Github</a>
         </div>
         <a href="http://www.scholarshipaudition.com/home" target='none'><div className='hello'></div></a>
         <li>
@@ -20,7 +17,7 @@ function Projects() {
       <div className='first-child'>
         <div>
           <p className="project-title">Chicago Museum of Arts API</p>
-          <a className="project-link" href="https://github.com/klheeJ/Javascript_ChicagoArt_API" target="none">Github</a>
+          <a className="project-link" href="https://github.com/klheeJ/Javascript_ChicagoArt_API" rel="noopener noreferrer">Github</a>
         </div>
         <a href="https://main--spectacular-moxie-623ab5.netlify.app/" target='none'><div className='hello2'></div></a>
         <li>
@@ -32,7 +29,7 @@ function Projects() {
       <div className='first-child'>
         <div>
           <p className="project-title">Foodbar (in progress)</p>
-          <a className="project-link" href="https://github.com/klheeJ/foodbar" target="none">Github</a>
+          <a className="project-link" href="https://github.com/klheeJ/foodbar" rel="noopener noreferrer">Github</a>
         </div>
         <a href="https://main--curious-halva-0315d4.netlify.app/" target='none'><div className='hello3'></div></a>
         <li>
@@ -44,7 +41,7 @@ function Projects() {
       <div className='first-child'>
         <div>
           <p className="project-title">Otter Gym</p>
-          <a className="project-link" href="https://github.com/klheeJ/gym-webiste" target="none">Github</a>
+          <a className="project-link" href="https://github.com/klheeJ/gym-webiste" rel="noopener noreferrer">Github</a>
         </div>
         <a href="https://vocal-beignet-099224.netlify.app/" target='none'><div className='hello4'></div></a>
         <li>
