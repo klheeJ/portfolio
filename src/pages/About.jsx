@@ -1,6 +1,5 @@
 import React from 'react'
 import Server from '../api/Server'
-import './About.css'
 
 function About() {
   return (

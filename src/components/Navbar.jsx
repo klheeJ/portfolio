@@ -35,7 +35,8 @@ function Navbar() {
           <div className='heading-connect'>
             <Link 
               to="/Connect" 
-              className= 'links sub-connect'
+              className= 'links'
+              id='sub-connect'
               onClick={closeNav}>Let's Connect!</Link>
           </div>
         </div>

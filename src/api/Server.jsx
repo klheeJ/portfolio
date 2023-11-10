@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import './Server.css'
-
 
 const cities = [
   { name: 'Seoul', url: 'https://api.weatherapi.com/v1/current.json?key=606e74206b584b82a3c140658230509&q=Seoul' },

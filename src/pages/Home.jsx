@@ -10,12 +10,11 @@ function Home() {
   const pictures = [
     {
       index: "1",
-      image: require('../Media/Certifications.png')
-
+      image: require('../Media/me.JPG')
     },
     {
       index: "2",
-      image: require('../Media/me.JPG')
+      image: require('../Media/Certifications.png')
     },
     {
       index: "3",

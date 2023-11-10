@@ -1,0 +1,129 @@
+.heading {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  background-color: white(233, 232, 229);
+  opacity: 0.8;
+  box-shadow: 0 0 5px 0 rgb(199, 199, 244);
+}
+
+.heading-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font: black;
+  font-family: "Work Sans", sans-serif;
+}
+
+.heading-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.heading-name, .heading-connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading-sub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  width: 50rem;
+}
+
+#sub-about:hover, #sub-projects:hover, #sub-connect:hover {
+  color: rgb(48, 48, 199);
+  opacity: 0.8;
+}
+
+#sub-about, #sub-projects {
+  margin-right: 2rem;
+}
+
+#sub-connect {
+  padding: 1em;
+  color: black;
+  border: 2px black solid;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.sub-connect:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#sub-name {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 1rem;
+  }
+  .heading-info {
+    display: none;
+  }
+  .heading-info.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+  }
+  .heading-sub {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 0.5rem;
+    justify-content: left;
+    width: 100%;
+  }
+  .navbar-toggle {
+    top: 2.5rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    font-size: large;
+  }
+  #sub-connect {
+    background-color: transparent;
+    color: black;
+    border: none;
+  }
+  .links:visited {
+    text-decoration: none;
+    color: black;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
